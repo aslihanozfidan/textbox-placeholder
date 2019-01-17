@@ -1,11 +1,11 @@
-# range-box
+# textbox-placeholder
 
-![npm (scoped)](https://img.shields.io/badge/version-1.1.0-blue.svg)
-![npm (scoped)](https://img.shields.io/github/license/aslihanozfidan/range-box.svg)
+![npm (scoped)](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![npm (scoped)](https://img.shields.io/github/license/aslihanozfidan/textbox-placeholder.svg)
 
 Textbox component with placeholder to value for React
 
-![image](https://user-images.githubusercontent.com/18716752/50422033-d5e0cd00-0856-11e9-99d2-0fa7ffc3ad04.png)
+![image](https://user-images.githubusercontent.com/18716752/51320936-7307dd80-1a72-11e9-8ba8-f4b0e30fdda2.png)
 
 ## Install
 
