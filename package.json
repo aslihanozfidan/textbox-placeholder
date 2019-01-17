@@ -1,6 +1,6 @@
 {
   "name": "textbox-placeholder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Textbox component with placeholder to value for React",
   "main": "build/index.js",
   "repository": {

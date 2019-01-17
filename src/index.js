@@ -28,7 +28,7 @@ class TextBoxPlaceholder extends React.Component {
 	shouldFocus() {
 		if (this.state.value == this.props.placeholder) {
 			this.setState({
-				value: ""
+				value: ''
 			})
 		}
 	}
@@ -38,7 +38,7 @@ class TextBoxPlaceholder extends React.Component {
 		const { value } = this.state
 
 		return (
-			<div id="range-box-wrapper">
+			<div>
 				<input
 					type="text"
 					id="text-box"

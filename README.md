@@ -23,6 +23,7 @@ $ npm install textbox-placeholder
 import TextBoxPlaceholder from 'textbox-placeholder'
 
 <TextBoxPlaceholder
+    inputClass={className}
     value={value}
     placeholder={placeholder} />
 ```
