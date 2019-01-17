@@ -1,0 +1,48 @@
+{
+  "name": "textbox-placeholder",
+  "version": "1.0.0",
+  "description": "Textbox component with placeholder to value for React",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aslihanozfidan/textbox-placeholder"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Aslihan Ozfidan",
+    "email": "aslihanozfidan@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "textbox",
+    "component",
+    "placeholder",
+    "placeholder to value"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
