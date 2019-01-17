@@ -5,7 +5,7 @@
 
 Textbox component with placeholder to value for React
 
-![image](https://user-images.githubusercontent.com/18716752/51320936-7307dd80-1a72-11e9-8ba8-f4b0e30fdda2.png)
+![image](https://user-images.githubusercontent.com/18716752/51321043-c843ef00-1a72-11e9-8abc-233d82bbbb90.png)
 
 ## Install
 
