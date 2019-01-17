@@ -1,0 +1,27 @@
+:root {
+  --main-black: #000000; 
+  --main-white: #ffffff;
+  --main-gray: #e0e3e6;
+  --main-blue: #c0dbf7;
+
+  --main-border-radius: 10px;
+}
+
+input[type=text] {
+  height: 35px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 15px;
+  border: 2px solid var(--main-gray);
+  border-radius: var(--main-border-radius);
+  font-size: 14px;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+}
+input[type=text]:focus {
+  border: 2px solid var(--main-blue);
+  outline: none;
+  border-bottom-width: 5px;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+}
