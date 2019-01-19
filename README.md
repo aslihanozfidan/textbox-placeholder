@@ -5,7 +5,7 @@
 
 Textbox component with placeholder to value for React
 
-![image](https://user-images.githubusercontent.com/18716752/51321043-c843ef00-1a72-11e9-8abc-233d82bbbb90.png)
+![image](https://user-images.githubusercontent.com/18716752/51321043-c843ef00-1a72-11e9-8abc-233d82bbbb90.png)<br/>
 ![image](https://user-images.githubusercontent.com/18716752/51427923-7d5ede80-1c0e-11e9-8dd0-8bc278f03fef.png)
 
 ## Why should I use it?
@@ -38,7 +38,7 @@ import TextBoxPlaceholder from 'textbox-placeholder'
 ```javascript
 import TextareaPlaceholder from 'textbox-placeholder'
 
-<TextBoxPlaceholder
+<TextareaPlaceholder
     component="Textarea"
     name="textarea"
     inputClass={className}
