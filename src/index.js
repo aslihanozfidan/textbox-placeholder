@@ -33,24 +33,53 @@ class TextBoxPlaceholder extends React.Component {
 		}
 	}
 
-	render() {
-		const { placeholder, inputClass } = this.props
+	renderTextBox() {
+		const { placeholder, inputClass, name } = this.props
 		const { value } = this.state
+		return (
+			<input
+				type="text"
+				name={name}
+				className={inputClass}
+				placeholder={placeholder}
+				value={value}
+				ref={this.input}
+				onBlur={() => this.shouldBlur()}
+				onFocus={() => this.shouldFocus()}
+				onChange={() => this.handleChange()}
+			/>
+		)
+	}
+	
+	renderTextarea() {
+		const { placeholder, inputClass, name } = this.props
+		const { value } = this.state
+		return (
+			<textarea
+				name={name}
+				className={inputClass}
+				placeholder={placeholder}
+				value={value}
+				ref={this.input}
+				onBlur={() => this.shouldBlur()}
+				onFocus={() => this.shouldFocus()}
+				onChange={() => this.handleChange()}
+			/>
+		)
+	}
+
+	render() {
+		const { component } = this.props
 
 		return (
 			<div>
-				<input
-					type="text"
-					id="text-box"
-					name="text-box"
-					className={inputClass}
-					placeholder={placeholder}
-					value={value}
-					ref={this.input}
-					onBlur={() => this.shouldBlur()}
-					onFocus={() => this.shouldFocus()}
-					onChange={() => this.handleChange()}
-				/>
+				{component == 'TextBox' ? (
+					this.renderTextBox()
+				) : component == 'Textarea' ? (
+					this.renderTextarea()
+				) : (
+					this.renderTextBox()
+				)}
 			</div>
 		)
 	}

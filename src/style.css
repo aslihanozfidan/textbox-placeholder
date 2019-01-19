@@ -5,7 +5,7 @@
   --main-border-radius: 10px;
 }
 
-input[type=text] {
+input[type=text], textarea {
   height: 35px;
   width: 100%;
   margin: 10px 0;
@@ -16,7 +16,13 @@ input[type=text] {
   -webkit-transition: border 0.3s;
   transition: border 0.3s;
 }
-input[type=text]:focus {
+
+textarea {
+  padding: 15px;
+  
+}
+
+input[type=text]:focus, textarea:focus {
   border: 2px solid var(--main-blue);
   outline: none;
   border-bottom-width: 5px;
