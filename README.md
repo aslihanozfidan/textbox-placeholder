@@ -1,6 +1,6 @@
 # textbox-placeholder
 
-![npm (scoped)](https://img.shields.io/badge/version-1.1.0-blue.svg)
+![npm (scoped)](https://img.shields.io/badge/version-1.1.1-blue.svg)
 ![npm (scoped)](https://img.shields.io/github/license/aslihanozfidan/textbox-placeholder.svg)
 
 Textbox component with placeholder to value for React
